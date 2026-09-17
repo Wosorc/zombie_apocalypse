@@ -1,0 +1,31 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "4 Milk 2",
+      "Type": "vsnd",
+      "Org": "local",
+      "Ident": "4_milk_2",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "sound/dialogue/test/milkmantakeweapon/4_milk_2.wav"
+      }
+    }
+  },
+  "loop": false,
+  "start": 0,
+  "end": 0,
+  "forceMono": false,
+  "trimSilence": false,
+  "normalize": false,
+  "gain": 0,
+  "rate": 44100,
+  "compress": true,
+  "bitrate": 256
+}

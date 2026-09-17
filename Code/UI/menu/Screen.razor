@@ -1,0 +1,14 @@
+@using Sandbox;
+@using Sandbox.UI;
+@using Sandbox.UI.menu
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<MainMenu></MainMenu>
+</root>
+
+@code
+{
+	protected override int BuildHash() => System.HashCode.Combine( "" );
+}

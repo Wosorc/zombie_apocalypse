@@ -1,0 +1,19 @@
+{
+  "loop": false,
+  "start": 0,
+  "end": 0,
+  "forceMono": false,
+  "trimSilence": false,
+  "normalize": false,
+  "gain": 0,
+  "rate": 44100,
+  "compress": false,
+  "bitrate": 256,
+  "subtitles": [
+    {
+      "text": "\u0445\u043E\u0440\u043E\u0448\u043E",
+      "start": 0,
+      "end": 2.3289793
+    }
+  ]
+}

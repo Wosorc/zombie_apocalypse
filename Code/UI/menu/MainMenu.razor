@@ -1,0 +1,30 @@
+@using Microsoft.VisualBasic
+<root>
+	<h2>Zombie apocalypse</h2>
+	<h3>Alpha 0.1.0</h3>
+	<button class="button" onclick="@Play"> ИГРАТЬ </button>
+	@* <button class="button" onclick="@Settings"> НАСТРОЙКИ </button> *@
+	<button class="button" onclick="@Quit"> ВЫЙТИ </button>
+</root>
+
+@code
+{
+	void Play()
+	{
+		Log.Info( "Играть" );
+		Scene.LoadFromFile( "scenes/test.scene" );
+	}
+
+	// void Settings()
+	// {
+	// 	Log.Info( "Настройки" );
+	// }
+
+	void Quit()
+	{
+		Log.Info( "Выйти" );
+		Game.Close();
+	}
+	
+	protected override int BuildHash() => System.HashCode.Combine( "" );
+}

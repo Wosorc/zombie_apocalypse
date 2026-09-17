@@ -1,0 +1,28 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Knife Ico",
+      "Type": "jpg",
+      "Org": "local",
+      "Ident": "knifeico",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "icon/knife_ico.png"
+      }
+    }
+  },
+  "clampu": false,
+  "clampv": false,
+  "clampw": false,
+  "nolod": false,
+  "nomip": false,
+  "nocompress": false,
+  "brightness": 1
+}

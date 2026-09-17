@@ -1,0 +1,13 @@
+<root>
+	<button class="button" onclick="@Back"> НАЗАД </button> 
+</root>
+
+@code
+{
+	void Back()
+	{
+		Log.Info( "Назад" );
+	}
+	
+	protected override int BuildHash() => System.HashCode.Combine( "" );
+}

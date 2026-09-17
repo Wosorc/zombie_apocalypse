@@ -1,0 +1,198 @@
+PlayerHud {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: Poppins;
+	font-size: 24px;
+
+	> .healthbars {
+		position: absolute;
+		bottom: 32px;
+		left: 32px;
+		flex-direction: column;
+		gap: 10px;
+
+		> .healthbar {
+			width: 500px;
+			height: 64px;
+
+			> .inner {
+				background-color: #300000a0;
+				flex-grow: 1;
+
+				> .fill {
+					height: 100%;
+					background-color: red;
+					transition: all 0.25s;
+				}
+
+				> p {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, 0%);
+					color: white;
+					font-size: 48px;
+					font-weight: bold;
+				}
+			}
+
+			&.armor {
+				> .inner {
+					background-color: #003000a0;
+					flex-grow: 1;
+
+					> .fill {
+						height: 100%;
+						background-color: green;
+						transition: all 0.25s;
+					}
+
+					> p {
+						position: absolute;
+						top: 50%;
+						left: 50%;
+						transform: translate(-50%, -100%);
+						color: white;
+						font-size: 48px;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+
+	> .hotbar {
+		position: absolute;
+		bottom: 32px;
+		width: 100%;
+		z-index: 1;
+		gap: 8px;
+		justify-content: center;
+		align-items: center;
+
+		> .slot {
+			width: 116px;
+			height: 116px;
+			background-color: hsla(0, 0%, 66%, 0.627);
+			transition: all 0.25s;
+
+			&.active {
+				background-color: #a9a9a9ff;
+				width: 145px;
+				height: 145px;
+			}
+		}
+	}
+    
+    .hotbarItem{
+      position: absolute;
+      bottom: 32px;
+      right: 32px;
+      
+      font-size: 48px;
+      font-weight: bold;
+
+      flex-direction: column;
+    }
+  
+    .itemIfo{
+      justify-content: flex-end;
+    }
+
+    .weaponInfo{
+      justify-content: flex-end;
+    }
+
+	.crosshair {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+		.promptText {
+		position: absolute;
+		font-size: 48px;
+		font-weight: bold;
+		color: white;
+		transform: translate(-50%, 50%);
+		text-stroke: 4px black; 
+	}
+
+	.dialogueLine {
+		    flex-direction: column;
+			align-items: center;
+			position: absolute;
+			text-align: center;
+			font-size: 42px;
+			font-weight: bold;
+			color: white;
+			text-stroke: 4px black; 
+			transform: translate(-50%, 0%);
+			top: 70%;
+			left: 50%;
+	}
+
+	.quests
+	{
+		position: absolute;
+		top: 32px;
+		right: 32px;
+
+		flex-direction: column;
+		gap: 12px;
+
+		font-size: 32px;
+		font-weight: bold;
+		color: rgb(69, 69, 69);
+
+		.quest
+		{
+			width: 500px;
+			padding: 12px 16px;
+			min-height: 64px;
+
+			flex-direction: column;
+
+			background-color: rgb(255, 217, 0);
+
+			.quest-name
+			{
+				font-size: 32px;
+			}
+
+			.objectives
+			{
+				flex-direction: column;
+				gap: 4px;
+				margin-top: 4px;
+				margin-left: 20px;
+
+				.objective
+				{
+					font-size: 22px;
+					font-weight: normal;
+
+					&.active
+					{
+						text-decoration: line-through;
+						text-decoration-color: rgb(255, 0, 0);
+						text-decoration-thickness: 2px;
+					}
+				}
+			}
+
+			&.active
+			{
+				background-color: rgb(102, 255, 0);
+				text-decoration: line-through;
+				text-decoration-color: rgb(255, 0, 0);
+				text-decoration-thickness: 3px;
+			}
+		}
+	}
+}

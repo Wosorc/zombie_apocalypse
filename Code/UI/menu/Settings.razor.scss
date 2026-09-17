@@ -1,0 +1,43 @@
+Settings
+{
+	pointer-events: all;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: transparent;
+	backdrop-filter: blur(10px) saturate(80%);
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	flex-direction: column;
+	gap: 30px;
+
+	.button
+	{
+		font-family: "Alef";
+		color: black;
+		font-size: 70px;
+		justify-content: center;
+		align-items: center;
+
+		background-color: grey;
+		width: 500px;
+		padding: 10px;
+		transition: background-color 0.5s ease;
+		border-radius: 10px;
+
+		&:hover
+		{
+			background-color: white;
+		}
+
+		&:focus,
+		&:active
+		{
+			background-color: grey;
+			transition: none;
+		}
+	}
+}

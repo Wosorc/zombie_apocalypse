@@ -1,0 +1,126 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+
+	<div class="healthbars">
+		<div class="healthbar armor">
+			<div class="inner">
+				<div class="fill" style="width: @( armorPercent )%"> </div>
+				<p>@(stat.Armor) </p>
+			</div>
+		</div>
+		
+		<div class="healthbar">
+			<div class="inner">
+				<div class="fill" style="width: @( healthPercent )%"> </div>
+				<p>@(stat.Health) </p>
+			</div>
+		</div>
+	</div>
+
+	<div class="hotbar">
+		@for(int i=0; i<inventory.Slots; i++)
+		{
+			<div class="slot @((inventory.ActiveSlot == i) ? "active" : "")">
+				@if ( i < inventory.InventoryList.Count() )
+				{
+					<img src="@(inventory.GetItem( i ).Ico?.ResourcePath)" />
+				}
+			</div>
+		}
+	</div>
+	
+	<div class="hotbarItem">
+		<div class="itemIfo">
+			<p> @activeItem?.ItemName </p>
+		</div>
+	
+		@if ( activeWeapon != null && activeWeapon.Type != WeaponType.MeleeWeapon )
+		{
+			<div class="weaponInfo">
+				<p> @activeWeapon.CurrentAmmo / @dictionaryAmmo.GetAmmo( activeWeapon.AmmoType ) </p>
+			</div>
+		}
+	</div>
+
+	<div class="quests">
+		@for(int i=0; i<questController.Quests.Count; i++)
+		{
+			var quest = questController.Quests[i];
+
+			<div class = "quest @((quest.IsCompleted) ? "active" : "")" >
+
+				<p> @(quest.Name) </p>
+
+				<div class="objectives">
+					@for(int j=0; j<quest.Objectives.Count; j++)
+					{
+						var objective = quest.Objectives[j];
+
+						<div class = "objective @((objective.IsCompleted) ? "active" : "")" >
+							<p> @objective.Name </p>
+						</div>
+					}
+				</div>
+			</div>
+		}
+	</div>
+
+	<div class="crosshair" style="background-color: @Color.Hex">
+		<div class="promptText">@PromptText</div>
+	</div>
+
+	<div class="dialogueLine">
+		<p> @( dialogueController?.CurrentName ) </p>
+		<p> @( dialogueController?.CurrentText ) </p>
+	</div>
+	
+</root>
+
+@code
+{
+    [Property] private GameObject Player { get; set; }
+    [Property] private Color Color { get; set; }
+    public string PromptText;
+    
+    private Stat stat;
+    private Inventory inventory;
+    private DictionaryAmmo  dictionaryAmmo;
+	private QuestController questController;
+	private DialogueController dialogueController;
+	
+    protected override void OnStart()
+    {
+        stat = Player.GetComponent<Stat>();
+		inventory = Player.GetComponent<Inventory>();
+		dictionaryAmmo = Player.GetComponent<DictionaryAmmo>();
+		questController = Player.GetComponent<QuestController>();
+    }
+    
+	private float healthPercent => stat.Health / stat.MaxHealth * 100f;
+	private float armorPercent => stat.Armor / stat.MaxArmor * 100f;
+	
+	private ItemSystem activeItem => inventory.GetActiveItem();
+	private WeaponSystem activeWeapon => inventory.GetActiveWeapon();
+
+	public void SetDialogue( DialogueController dialogue )
+	{
+		dialogueController = dialogue;
+	}
+
+	protected override int BuildHash()
+	{
+		return System.HashCode.Combine(
+			questController.Revision,
+			stat.Revision,
+			inventory.Revision,
+			activeWeapon?.Revision,
+			dialogueController?.Revision,
+			PromptText,
+			Color
+		);
+	}
+	}
