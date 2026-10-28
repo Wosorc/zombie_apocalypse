@@ -1,0 +1,22 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Test",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "test",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [],
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "maps/test.vmap"
+      }
+    }
+  },
+  "guid": "ab5eb500-0002-0000-0000-000000000000"
+}

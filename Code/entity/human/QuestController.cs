@@ -20,6 +20,7 @@ public sealed class QuestController : Component
 		GameEvents.OnItemCollected += OnItemCollected;
 		GameEvents.OnNpcTalked += OnNpcTalked;
 		GameEvents.OnLocationReached += OnLocationReached;
+		GameEvents.OnOpened += OnOpened;
 	}
 
 	protected override void OnDestroy()
@@ -28,6 +29,7 @@ public sealed class QuestController : Component
         GameEvents.OnItemCollected -= OnItemCollected;
         GameEvents.OnNpcTalked -= OnNpcTalked;
         GameEvents.OnLocationReached -= OnLocationReached;
+        GameEvents.OnOpened -= OnOpened;
     }
 
 	public void CompleteQuest( Quest quest )
@@ -88,5 +90,10 @@ public sealed class QuestController : Component
     private void OnLocationReached( GameObject target )
     {
         UpdateObjective( QuestType.Reach, target );
+    }
+
+    private void OnOpened( GameObject target )
+    {
+	    UpdateObjective( QuestType.Open, target );
     }
 }

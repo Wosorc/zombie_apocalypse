@@ -1,5 +1,6 @@
 using Sandbox;
 using System;
+using System.IO;
 
 public sealed class WeaponSystem : Component
 {
@@ -59,10 +60,12 @@ public sealed class WeaponSystem : Component
 	public void Shoot( GameObject player )
 	{
 		var tr = SceneTrace( player, Distance );
+
 		if ( tr.Hit )
 		{
-			DebugOverlay.Sphere( new Sphere( tr.EndPosition, 3f ), Color.Green, 2f );
 			Log.Info( $"Попал в {tr.GameObject}" );
+
+			Decal( tr );
 
 			var enity = tr.GameObject.GetComponent<Stat>();
 
@@ -76,10 +79,12 @@ public sealed class WeaponSystem : Component
 	public void Attack( GameObject player )
 	{
 		var tr = SceneTrace( player, Distance );
+
 		if ( tr.Hit )
 		{
-			DebugOverlay.Sphere( new Sphere( tr.EndPosition, 3f ), Color.Green, 2f );
 			Log.Info( $"Попал в {tr.GameObject}" );
+			
+			Decal( tr );
 
 			var enity = tr.GameObject.GetComponent<Stat>();
 
@@ -115,5 +120,23 @@ public sealed class WeaponSystem : Component
 	public bool HasAmmo()
 	{
 		return Type == WeaponType.Firearm;
+	}
+
+	private void Decal( SceneTraceResult trace )
+	{
+		var decal = new GameObject();
+
+		decal.Name = "decal";
+		decal.WorldPosition = trace.EndPosition;
+		decal.WorldRotation = Rotation.LookAt( -trace.Normal );
+
+		var component = decal.AddComponent<Decal>();
+		
+		DecalDefinition decalDefinition = new DecalDefinition();
+		decalDefinition.ColorTexture = Texture.Load( "icon/decals.png" ); 
+		
+		component.Decals.Add( decalDefinition );
+		component.Size = 0.5f;
+		component.LifeTime = 10f;
 	}
 }

@@ -81,6 +81,7 @@
           "Scale": 1,
           "ScaleStrategy": "ConsistentHeight",
           "TargetCamera": null,
+          "Timing": "AfterPostProcess",
           "ZIndex": 100
         },
         {
@@ -2353,10 +2354,29 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "72252da1-cf41-4ea4-9cc2-4ac560312d8a",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "-623.168701,415.277252,498.701935",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
     }
   ],
   "SceneProperties": {
     "NetworkInterpolation": true,
+    "PhysicsMode": "Physics3D",
     "TimeScale": 1,
     "WantsSystemScene": true,
     "Metadata": {},

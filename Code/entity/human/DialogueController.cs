@@ -3,12 +3,18 @@ using Sandbox;
 public sealed class DialogueController : Component
 {
 	[Property] private List<Dialogue> dialogue { get; set; } = new();
+	[Property] private List<Quest> questsRequired { get; set; } = new();
+	
 	private int currentDialogue = 0;
 	private int currentDialogueLine = 0;
+	
 	private TimeSince lineTime = 0f;
-	private bool isTalking = false;
+	
 	private QuestController questController = null;
 	public int Revision { get; private set; }
+	
+	private bool isTalking = false;
+	
 	public string CurrentName
 	{
 		get
@@ -61,6 +67,17 @@ public sealed class DialogueController : Component
 			return;
 		}
 
+		if ( questsRequired.Count != 0 )
+		{
+			foreach ( var quest in questsRequired )
+			{
+				if ( !quest.IsCompleted )
+				{
+					return;
+				}
+			}
+		}
+
 		questController = player.GetComponent<QuestController>();
 		isTalking = true;
 		currentDialogueLine = 0;
@@ -111,6 +128,11 @@ public sealed class DialogueController : Component
 		if ( line.EnableQuest )
 		{
 			questController.AddQuest( line.Quest );
+
+			if ( line.Quest.Required )
+			{
+				questsRequired.Add( line.Quest );
+			}
 		}
 
 		lineTime = 0f;

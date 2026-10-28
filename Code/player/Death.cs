@@ -5,6 +5,7 @@ public sealed class Death : Component
     [Property] private bool destroyOnDeath { get; set; }
     [Property] private bool restartSceneOnDeath  { get; set; }
     [Property] private bool sendEnemyKilledEvent  { get; set; }
+    
 	private Stat stat;
 	
 	protected override void OnStart()

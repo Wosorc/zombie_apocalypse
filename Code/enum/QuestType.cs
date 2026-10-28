@@ -1,7 +1,8 @@
 public enum QuestType
 {
-    Kill,
-    Collect,
-    Talk,
-    Reach
+	Kill,
+	Collect,
+	Talk,
+	Reach,
+	Open
 }

@@ -26,7 +26,17 @@ public sealed class Door : Interactable
 	public void OpenClose()
 	{
 		_opened = !_opened;
-		_targetRotation = _opened ? Open : _close;
+		
+		if ( _opened )
+		{
+			_targetRotation = Open;
+			
+			GameEvents.Opened( GameObject );
+		}
+		else
+		{
+			_targetRotation = _close;
+		}
 	}
 
 	private void Move()
