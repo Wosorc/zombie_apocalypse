@@ -72,7 +72,10 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "SkyIndirectLighting": true,
-          "SkyMaterial": "materials/skybox/skybox_workshop.vmat",
+          "SkyMaterial": {
+            "Id": "f26c3253-1b8d-4091-bc8a-c7ee6e107bbb",
+            "Path": "materials/skybox/skybox_workshop.vmat"
+          },
           "Tint": "1,1,1,1"
         }
       ],
@@ -122,7 +125,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -194,7 +200,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -266,7 +275,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -338,7 +350,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -410,7 +425,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -482,7 +500,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -554,7 +575,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -626,7 +650,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -698,7 +725,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -770,7 +800,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -842,7 +875,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -914,7 +950,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -986,7 +1025,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1058,7 +1100,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1130,7 +1175,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1202,7 +1250,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1274,7 +1325,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1346,7 +1400,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1418,7 +1475,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1490,7 +1550,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1562,7 +1625,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1634,7 +1700,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1706,7 +1775,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1778,7 +1850,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1850,7 +1925,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1922,7 +2000,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -1994,7 +2075,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -2066,7 +2150,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -2138,7 +2225,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -2210,7 +2300,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -2284,6 +2377,7 @@
           "Gravity": true,
           "GravityScale": 1,
           "ImpactDamage": 0,
+          "InertiaScale": 1,
           "LinearDamping": 0,
           "Locking": {
             "X": false,
@@ -2395,6 +2489,22 @@
             {
               "Name": "Старый друг",
               "Objectives": [
+                {
+                  "Name": "Взять ключ",
+                  "Type": "Collect",
+                  "TargetTag": "key",
+                  "CurrentProgress": 0,
+                  "RequiredProgress": 1,
+                  "IsCompleted": false
+                },
+                {
+                  "Name": "Открой дверь",
+                  "Type": "Open",
+                  "TargetTag": "door",
+                  "CurrentProgress": 0,
+                  "RequiredProgress": 1,
+                  "IsCompleted": false
+                },
                 {
                   "Name": "Поговори с молочником",
                   "Type": "Talk",
@@ -2861,6 +2971,7 @@
                   "Gravity": true,
                   "GravityScale": 1,
                   "ImpactDamage": 0,
+                  "InertiaScale": 1,
                   "LinearDamping": 0,
                   "Locking": {
                     "X": false,
@@ -2890,7 +3001,10 @@
                   "__guid": "6d5f02e5-3563-48d7-9c7c-9c1c653be1f7",
                   "__enabled": true,
                   "Flags": 0,
-                  "Ico": "icon/knife_ico.vtex",
+                  "Ico": {
+                    "Id": "22c84b99-317b-4dd0-9095-897895ab5e14",
+                    "Path": "icon/knife_ico.vtex"
+                  },
                   "ItemName": "нож",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -3002,6 +3116,7 @@
                   "Gravity": true,
                   "GravityScale": 1,
                   "ImpactDamage": 0,
+                  "InertiaScale": 1,
                   "LinearDamping": 0,
                   "Locking": {
                     "X": false,
@@ -3031,7 +3146,10 @@
                   "__guid": "12e18c14-4fd4-4d65-8d3e-36ff911d214b",
                   "__enabled": true,
                   "Flags": 0,
-                  "Ico": "icon/pistol_ico.vtex",
+                  "Ico": {
+                    "Id": "90570587-b956-4af3-9387-18edeaf1c3b3",
+                    "Path": "icon/pistol_ico.vtex"
+                  },
                   "ItemName": "пистолет",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -3143,6 +3261,7 @@
                   "Gravity": true,
                   "GravityScale": 1,
                   "ImpactDamage": 0,
+                  "InertiaScale": 1,
                   "LinearDamping": 0,
                   "Locking": {
                     "X": false,
@@ -3172,7 +3291,10 @@
                   "__guid": "497171c9-249f-4e7c-ad6b-99fdd730002b",
                   "__enabled": true,
                   "Flags": 0,
-                  "Ico": "icon/rifle_ico.vtex",
+                  "Ico": {
+                    "Id": "b3732b2b-75d0-41f6-82aa-d050557ea349",
+                    "Path": "icon/rifle_ico.vtex"
+                  },
                   "ItemName": "автомат",
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -3286,6 +3408,7 @@
               "Gravity": true,
               "GravityScale": 1,
               "ImpactDamage": 0,
+              "InertiaScale": 1,
               "LinearDamping": 0,
               "Locking": {
                 "X": false,
@@ -3315,7 +3438,10 @@
               "__guid": "4b58c9a9-6be9-457f-bbfd-4238bf7dc361",
               "__enabled": true,
               "Flags": 0,
-              "Ico": "icon/zaloopa_ico.vtex",
+              "Ico": {
+                "Id": "ed985bc3-cfba-43c0-a398-d792e19b9919",
+                "Path": "icon/zaloopa_ico.vtex"
+              },
               "ItemName": "хуйня",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -3336,7 +3462,7 @@
           "Position": "431.25,234.584656,27",
           "Rotation": "0,-0,-0.707106769,0.707106769",
           "Scale": "0.100000001,0.100000001,0.100000001",
-          "Tags": "",
+          "Tags": "key",
           "Enabled": true,
           "NetworkMode": 2,
           "NetworkFlags": 0,
@@ -3355,7 +3481,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -3408,6 +3537,7 @@
               "Gravity": true,
               "GravityScale": 1,
               "ImpactDamage": 0,
+              "InertiaScale": 1,
               "LinearDamping": 0,
               "Locking": {
                 "X": false,
@@ -3437,7 +3567,10 @@
               "__guid": "bf77540b-69c0-491b-a209-967c521ee76e",
               "__enabled": true,
               "Flags": 0,
-              "Ico": "icon/key_ico.vtex",
+              "Ico": {
+                "Id": "4bf7fff5-2d24-4720-8adb-d2f3faf2a3aa",
+                "Path": "icon/key_ico.vtex"
+              },
               "ItemName": "ключ",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -3496,7 +3629,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -3584,10 +3720,16 @@
               "MaterialOverride": null,
               "Materials": {
                 "indexed": {
-                  "0": "materials/dev/primary_white.vmat"
+                  "0": {
+                    "Id": "2101a75f-fc55-4c8a-9235-e233777a72c5",
+                    "Path": "materials/dev/primary_white.vmat"
+                  }
                 }
               },
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -3694,10 +3836,16 @@
               "MaterialOverride": null,
               "Materials": {
                 "indexed": {
-                  "0": "materials/dev/primary_white.vmat"
+                  "0": {
+                    "Id": "2101a75f-fc55-4c8a-9235-e233777a72c5",
+                    "Path": "materials/dev/primary_white.vmat"
+                  }
                 }
               },
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -3784,7 +3932,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -3871,7 +4022,7 @@
           "Position": "236.339935,-327.845184,-31.8453522",
           "Rotation": "0,0,0.707106769,0.707106769",
           "Scale": "0.100000001,1,1.5",
-          "Tags": "",
+          "Tags": "door",
           "Enabled": true,
           "NetworkMode": 2,
           "NetworkFlags": 0,
@@ -3954,7 +4105,10 @@
                   "MaterialGroup": null,
                   "MaterialOverride": null,
                   "Materials": null,
-                  "Model": "models/dev/box.vmdl",
+                  "Model": {
+                    "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                    "Path": "models/dev/box.vmdl"
+                  },
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
@@ -3983,7 +4137,7 @@
           "Position": "48.8399506,-327.845154,-19.3453827",
           "Rotation": "0,0,-0.707106769,0.707106769",
           "Scale": "0.100000001,1,1",
-          "Tags": "",
+          "Tags": "vent",
           "Enabled": true,
           "NetworkMode": 2,
           "NetworkFlags": 0,
@@ -4063,7 +4217,10 @@
                   "MaterialGroup": null,
                   "MaterialOverride": null,
                   "Materials": null,
-                  "Model": "models/dev/box.vmdl",
+                  "Model": {
+                    "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                    "Path": "models/dev/box.vmdl"
+                  },
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
@@ -4092,7 +4249,7 @@
           "Position": "-138.660065,-327.845154,-19.3453827",
           "Rotation": "0,0,-0.707106769,0.707106769",
           "Scale": "0.100000001,1,1",
-          "Tags": "",
+          "Tags": "window",
           "Enabled": true,
           "NetworkMode": 2,
           "NetworkFlags": 0,
@@ -4172,7 +4329,10 @@
                   "MaterialGroup": null,
                   "MaterialOverride": null,
                   "Materials": null,
-                  "Model": "models/dev/box.vmdl",
+                  "Model": {
+                    "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                    "Path": "models/dev/box.vmdl"
+                  },
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
@@ -4239,7 +4399,10 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/dev/box.vmdl",
+              "Model": {
+                "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                "Path": "models/dev/box.vmdl"
+              },
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -4455,6 +4618,7 @@
               "Gravity": true,
               "GravityScale": 1,
               "ImpactDamage": 0,
+              "InertiaScale": 1,
               "LinearDamping": 0,
               "Locking": {
                 "X": false,
@@ -4622,7 +4786,10 @@
                   "MaterialGroup": null,
                   "MaterialOverride": null,
                   "Materials": null,
-                  "Model": "models/dev/box.vmdl",
+                  "Model": {
+                    "Id": "8a84e5a0-01f8-0000-f0db-b088f8010000",
+                    "Path": "models/dev/box.vmdl"
+                  },
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
@@ -4786,6 +4953,7 @@
               "Gravity": true,
               "GravityScale": 1,
               "ImpactDamage": 0,
+              "InertiaScale": 1,
               "LinearDamping": 0,
               "Locking": {
                 "X": true,
@@ -4863,7 +5031,10 @@
                     {
                       "Name": "Толян",
                       "Text": "Дарова, молоко.",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/1_tol_1.vsnd",
+                      "Sound": {
+                        "Id": "b4548e00-cdb9-4866-84f4-32e1a4dca31f",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/1_tol_1.vsnd"
+                      },
                       "TimeSound": 1.8407936,
                       "EnableQuest": false,
                       "Quest": {
@@ -4876,7 +5047,10 @@
                     {
                       "Name": "Толян",
                       "Text": "Есть ли у тебя задания для проверки этой ахуенной игры?",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/2_tol_2.vsnd",
+                      "Sound": {
+                        "Id": "a30b3054-39f7-4e7d-90ef-2702d285025f",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/2_tol_2.vsnd"
+                      },
                       "TimeSound": 3.175941,
                       "EnableQuest": false,
                       "Quest": {
@@ -4889,7 +5063,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Привет, петух.",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/3_milk_1.vsnd",
+                      "Sound": {
+                        "Id": "6ec29c76-10dd-4505-9488-13a30c20988e",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/3_milk_1.vsnd"
+                      },
                       "TimeSound": 1.7479138,
                       "EnableQuest": false,
                       "Quest": {
@@ -4902,7 +5079,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Да, есть конечно.",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/4_milk_2.vsnd",
+                      "Sound": {
+                        "Id": "9076778f-5299-4f8a-9995-b23582cb68d6",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/4_milk_2.vsnd"
+                      },
                       "TimeSound": 1.9568934,
                       "EnableQuest": false,
                       "Quest": {
@@ -4915,7 +5095,10 @@
                     {
                       "Name": "Толян",
                       "Text": "И какие же?",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/5_tol_3.vsnd",
+                      "Sound": {
+                        "Id": "bffad466-cf43-4982-b676-a409d5e45ae1",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/5_tol_3.vsnd"
+                      },
                       "TimeSound": 1.3647846,
                       "EnableQuest": false,
                       "Quest": {
@@ -4928,7 +5111,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Для начала возьми оружие и надень броню, сосунок.",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/6_milk_3.vsnd",
+                      "Sound": {
+                        "Id": "fa6064c4-4a81-4bfc-aa3b-df4f8f0f8b48",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/6_milk_3.vsnd"
+                      },
                       "TimeSound": 4.093,
                       "EnableQuest": true,
                       "Quest": {
@@ -4958,7 +5144,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Их можно найти на стендах.",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/7_milk_4.vsnd",
+                      "Sound": {
+                        "Id": "64c7c56c-a474-47e3-b020-1db804db3acd",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/7_milk_4.vsnd"
+                      },
                       "TimeSound": 2.293,
                       "EnableQuest": false,
                       "Quest": {
@@ -4971,7 +5160,10 @@
                     {
                       "Name": "Толян",
                       "Text": "Окей, секунду.",
-                      "Sound": "sound/dialogue/test/milkmantakeweapon/8_tol_4.vsnd",
+                      "Sound": {
+                        "Id": "56a86535-3aec-4c01-9e9b-93bda10db4aa",
+                        "Path": "sound/dialogue/test/milkmantakeweapon/8_tol_4.vsnd"
+                      },
                       "TimeSound": 1.8756236,
                       "EnableQuest": false,
                       "Quest": {
@@ -4990,7 +5182,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Убей нахуй этого зомби возле дома.",
-                      "Sound": "sound/dialogue/test/milkmankillzombie/1_milk_1.vsnd",
+                      "Sound": {
+                        "Id": "c81747b2-f055-4cb5-a3d7-4d40cf7ec5b5",
+                        "Path": "sound/dialogue/test/milkmankillzombie/1_milk_1.vsnd"
+                      },
                       "TimeSound": 3.1759374,
                       "EnableQuest": true,
                       "Quest": {
@@ -5005,14 +5200,17 @@
                             "IsCompleted": false
                           }
                         ],
-                        "Required": false,
+                        "Required": true,
                         "IsCompleted": false
                       }
                     },
                     {
                       "Name": "Толян",
                       "Text": "Зачем?",
-                      "Sound": "sound/dialogue/test/milkmankillzombie/2_tol_1.vsnd",
+                      "Sound": {
+                        "Id": "7d12bbe9-3e88-46f9-b865-183826211d01",
+                        "Path": "sound/dialogue/test/milkmankillzombie/2_tol_1.vsnd"
+                      },
                       "TimeSound": 1.1209583,
                       "EnableQuest": false,
                       "Quest": {
@@ -5025,15 +5223,26 @@
                     {
                       "Name": "Молоко",
                       "Text": "Это остаток от доширака, упокой его с миром.",
-                      "Sound": "sound/dialogue/test/milkmankillzombie/3_milk_2.vsnd",
+                      "Sound": {
+                        "Id": "ccb1ef3e-0009-4e67-a52f-d50b972eba91",
+                        "Path": "sound/dialogue/test/milkmankillzombie/3_milk_2.vsnd"
+                      },
                       "TimeSound": 3.5590625,
                       "EnableQuest": false,
-                      "Quest": null
+                      "Quest": {
+                        "Name": null,
+                        "Objectives": [],
+                        "Required": false,
+                        "IsCompleted": true
+                      }
                     },
                     {
                       "Name": "Толян",
                       "Text": "Хорошо, давай поконьчим с ним.",
-                      "Sound": "sound/dialogue/test/milkmankillzombie/4_tol_2.vsnd",
+                      "Sound": {
+                        "Id": "08155882-8752-4abc-86bb-e8189cc0285f",
+                        "Path": "sound/dialogue/test/milkmankillzombie/4_tol_2.vsnd"
+                      },
                       "TimeSound": 2.3289793,
                       "EnableQuest": false,
                       "Quest": {
@@ -5052,7 +5261,10 @@
                     {
                       "Name": "Толян",
                       "Text": "Всё готово, что дальше?",
-                      "Sound": "sound/dialogue/test/milkmanend/1_tol_1.vsnd",
+                      "Sound": {
+                        "Id": "cdda7fe4-e149-4a13-93a0-d1de15b0e39d",
+                        "Path": "sound/dialogue/test/milkmanend/1_tol_1.vsnd"
+                      },
                       "TimeSound": 1.98,
                       "EnableQuest": false,
                       "Quest": {
@@ -5065,7 +5277,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Красава маратик.",
-                      "Sound": "sound/dialogue/test/milkmanend/2_milk_1.vsnd",
+                      "Sound": {
+                        "Id": "2fcfe9b7-1d96-4908-b823-53565c9855dd",
+                        "Path": "sound/dialogue/test/milkmanend/2_milk_1.vsnd"
+                      },
                       "TimeSound": 1.643,
                       "EnableQuest": false,
                       "Quest": {
@@ -5078,7 +5293,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "На этом проверку игры можно закончить.",
-                      "Sound": "sound/dialogue/test/milkmanend/3_milk_2.vsnd",
+                      "Sound": {
+                        "Id": "c9cd7a84-e811-4c23-8df8-2923ac506c3d",
+                        "Path": "sound/dialogue/test/milkmanend/3_milk_2.vsnd"
+                      },
                       "TimeSound": 3.025,
                       "EnableQuest": false,
                       "Quest": {
@@ -5091,7 +5309,10 @@
                     {
                       "Name": "Толян",
                       "Text": "Окей, тогда я пойду.",
-                      "Sound": "sound/dialogue/test/milkmanend/4_tol_2.vsnd",
+                      "Sound": {
+                        "Id": "1b31021a-0c12-4a13-bba1-74b8da8c8e44",
+                        "Path": "sound/dialogue/test/milkmanend/4_tol_2.vsnd"
+                      },
                       "TimeSound": 2.03,
                       "EnableQuest": true,
                       "Quest": {
@@ -5113,7 +5334,10 @@
                     {
                       "Name": "Молоко",
                       "Text": "Удачи, жди первой главы.",
-                      "Sound": "sound/dialogue/test/milkmanend/5_milk_3.vsnd",
+                      "Sound": {
+                        "Id": "f4c4a95d-cd23-482f-9f3a-3f10d5640d36",
+                        "Path": "sound/dialogue/test/milkmanend/5_milk_3.vsnd"
+                      },
                       "TimeSound": 2.374,
                       "EnableQuest": false,
                       "Quest": {
@@ -5131,7 +5355,8 @@
               "OnComponentEnabled": null,
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
-              "OnComponentUpdate": null
+              "OnComponentUpdate": null,
+              "questsRequired": []
             }
           ],
           "Children": [
